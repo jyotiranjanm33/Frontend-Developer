@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Element Selector*/
+        div{
+            background-color: brown;
+        }
+        /*Class Selector*/
+        .One{
+            background-color: aqua;
+        }
+        /*Id Selector*/
+        #hi{
+            background-color: blue;
+        }
+        /*Child Selector*/
+        div >p{
+            color: aliceblue;
+        }
+        /*Universal Selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*Pseudo Selector*/
+        a:visited{
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div>Hello Element</div>
+    <div class="One">Hello Element2</div>
+    <div id="hi">
+        Hello Element3
+        <p>Hii</p>
+    </div>
+    <a href="https://www.google.com/">Welcome to Google</a>
+
+</body>
+</html>
